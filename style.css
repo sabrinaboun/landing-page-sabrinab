@@ -1,0 +1,173 @@
+body{
+    background-color: #faefd2;
+    color: black;
+    font-family: 'Lora, serif';
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0;
+}
+
+h1{ 
+    font-family: 'Lora', serif;
+    font-size: 45px;
+    color: bisque ; 
+    font-weight: 900;
+}
+
+h2{
+    font-family: 'Old Standard TT', serif;
+    text-shadow: 1px bl;
+    font-weight: 900;
+}
+
+h3{
+    font-family: 'Lora, serif'; ;
+    font-weight: 700;
+}
+
+#animation{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 30px;
+    color: #445E93;
+    animation-duration: 4s;
+    animation-name: slidein;
+}
+
+@keyframes slidein{
+    from{
+        margin-left: 100%;
+        width: 300%;
+    }
+    to{
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+.banner{
+    padding: 100px 0px;
+    background-image: url(images/Nintendo\ Universe.webp);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    box-shadow: inset 0 0 0 1000px rgb(0 0 0 / 65%);
+}
+
+#banner-p{
+    color: bisque;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    text-align: "justify";
+}
+
+.btn-blue{
+    background-color: #7EB2DD;
+    color: #faefd2;
+    text-decoration: double ; 
+    padding: 20px 10px;
+    font-weight: 600;
+    border-radius: 20px;
+}
+
+.btn-blue:hover{
+    background-color: #445E93;
+}
+
+.container{
+    width: 900px;
+    margin: 40px auto;
+}
+
+.card-beige{
+    background-color: #faefd2;
+    box-shadow: 10px 20px 30px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+}
+
+.card-beige img{
+    height: 180px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-beige img:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.consols{
+    width: 900px;
+    margin: 40px auto;
+}
+
+.card-beige-consols {
+    background-color: #faefd2;
+    box-shadow: 10px 20px 30px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+}
+
+.card-beige-consols-img{
+    height: 180px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-beige-consols-img:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.cards-consols{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.footer{
+    background-color: #E70008;
+    padding: 100px 0px;
+    color: white;
+    text-align: center;
+}
+
+.little-banner {
+    background-color: #E70008;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.little-banner #logo {
+    height: 60px;
+}
+
+.little-banner ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.little-banner li {
+    display: inline;
+}
+
+.little-banner li img {
+    height: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.footer #logo{
+    height: 60px;
+}
+

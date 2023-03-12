@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Nintendo - Landing page</title>
+  <link rel="shortcut icon" type="image/png" href="images"/>
+  <link href="https://fonts.googleapis.com/css?family=Chivo:700|Overpass:400,700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="little-banner">
+    <img src="images/logo nintendo.png" alt="Nintendo logo" id="logo">
+    <div>
+      <ul>
+        <li><a href="https://www.nintendo.fr/Rechercher/Rechercher-299117.html?f=147394-5-81"><img src="images/Capture d’écran 2023-03-10 à 17.17.24.png" alt=""></a></li>
+        <li><a href="https://accounts.nintendo.com/authorize_guide?type=mixed&redirect_uri=https%3A%2F%2Faccounts.nintendo.com%2Fconnect%2F1.0.0%2Fauthorize%3Fclient_id%3De56201e414c97a10%26interacted%3D1%26redirect_uri%3Dhttps%253A%252F%252Fec.nintendo.com%252Foauth2%252Fcallback%26response_type%3Dcode%2Bid_token%26scope%3Dopenid%2Boffline%2Buser%2Buser.links.nintendoNetwork.id%26state%3D52a57141-f394-4117-ae60-3025e26a905c"><img src="images/Capture d’écran 2023-03-10 à 17.17.28.png" alt=""></a></li>
+        <li><a href="https://accounts.nintendo.com/authorize_guide?redirect_uri=https%3A%2F%2Faccounts.nintendo.com%2Fconnect%2F1.0.0%2Fauthorize%3Fclient_id%3Df9a80c41a802ed10%26display%3Dtouch%26interacted%3D1%26prompt%3Dconsent%26redirect_uri%3Dhttps%253A%252F%252Fwww.nintendo.fr%26response_mode%3Dweb_message%26response_type%3Dcode%2Bid_token%2Btoken%26scope%3DeshopDemo%2BeshopDevice%2BeshopPrice%2BmissionStatus%2BmissionStatus%253Aprogress%2Bopenid%2BpointWallet%2Buser%2Buser.birthday%2Buser.email%2Buser.links%255B%255D.id%2Buser.membership%2Buser.mii%2Buser.wishlist%2BuserNotificationMessage%253AanyClients%2BuserNotificationMessage%253AanyClients%253Awrite%26state%3D996f851d6351b6932a2182e08e9b49ae%26web_message_target%3Dop-frame%26web_message_uri%3Dhttps%253A%252F%252Faccounts.nintendo.com&type=mixed"><img src="images/Capture d’écran 2023-03-10 à 17.17.33.png" alt=""></a></li>
+      </ul>
+    </div>
+  </div>
+
+    <div class="banner">
+      <h1> Welcome to the Nintendo World ! </h1>
+      <p id="banner-p"> Do you love Super Mario? Are you a fan of The Legend of Zelda? <br>
+        Want to know everything about the Nintendo series? <br>
+        You've come to the right place! </p>
+      <a href="https://www.nintendo.fr/Jeux/Jeux-347085.html" class="btn-blue"> Click here to discover our universe!  </a>
+    </div>
+
+    <div class="container"> 
+      <div id="animation"><h2>Discover our games 🎮 </h2></div>
+
+      <div class="cards">
+
+        <div class="card-beige">
+          <img src="images/Super Mario Universe.jpg" alt="Mario" class="card-beige-img" onclick="play();" id="mario">
+          <h3>Super Mario</h3>
+          <p>Join Mario in his adventures across the globe to save Princess Peach !</p>
+        </div>
+
+        <div class="card-beige">
+          <img src="images/The legend of zelda.jpeg" alt="Zelda" class="card-beige-img" onclick="play2();" id="zelda">
+          <h3>The Legend of Zelda</h3>
+          <p>Enter a world of discovery, exploration and adventure with The Legend of Zelda. </p>
+        </div>
+
+        <div class="card-beige">
+          <img src="images/Animal crossing .avif" alt="Animal crossing" class="card-beige-img" onclick="play3();" id="animal_crossing">
+          <h3>Animal crossing</h3>
+          <p>Start your new life with Nook Inc.'s Desert Island Escape package!</p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="consols">
+      <div id="animation"><h2>Our game consols 🎮 </h2></div>
+
+      <div class="cards-consols">
+
+        <div class="card-beige-consols">
+         <img src="images/Nintendo switch.png" alt="Nintendo switch" class="card-beige-consols-img">
+          <h3>Nintendo Switch</h3>
+         </div>
+
+        <div class="card-beige-consols">
+          <img src="images/Switch oled.png" alt="Nintendo switch oled" class="card-beige-consols-img">
+          <h3>Nintendo Switch Oled</h3>
+        </div>
+
+        <div class="card-beige-consols">
+          <img src="images/Nintendo Switch Lite.png" alt="Nintendo switch lite" class="card-beige-consols-img">
+          <h3>Nintendo Switch lite</h3>
+          </div>
+
+      </div>
+      
+    </div>
+
+    <audio id="audio" src="sounds/powerup.wav"></audio>
+    <audio id="audio2" src="sounds/Zelda Get Item - Sound Effect.mp3"></audio>
+    <audio id="audio3" src="sounds/animal_crossing_beep.mp3"></audio>
+
+    <script>
+      function play() {
+        var audio = document.getElementById("audio");
+        var mario = document.getElementById("mario");
+        audio.play();
+      };
+  
+      function play2() {
+        var audio = document.getElementById("audio2");
+        var mario = document.getElementById("zelda");
+        audio.play();
+      };
+  
+      function play3() {
+        var audio = document.getElementById("audio3");
+        var mario = document.getElementById("animal_crossing");
+        audio.play();
+      };
+    </script>
+  
+    <!-- Footer section -->
+    <div class="footer">
+      <img src="images/logo nintendo.png" alt="Nintendo logo" id="logo">
+      <p>&copy; Nintendo, 2023</p>
+    </div>
+ 
+ </body> 
+</html>
